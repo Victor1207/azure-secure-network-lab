@@ -18,8 +18,6 @@ The goal was to deploy compute resources **without public exposure**, enforce **
 - App Subnet: `10.0.2.0/24`
 - Management Subnet: `10.0.3.0/24`
 
-> Architecture diagram available in `/architecture`
-
 ## Security Design
 - No public IP assigned to the VM
 - Subnet-level NSGs enforcing least privilege
@@ -45,10 +43,10 @@ This design reduces the attack surface and aligns with **Zero Trust principles**
 Estimated cost: **<$15**
 
 ## Validation & Testing
-- SSH access from internet: ❌ Blocked
-- SSH via Azure Bastion: ✅ Allowed
-- Internet access to App subnet: ❌ Blocked
-- Internal VNet traffic: ✅ Allowed
+- SSH access from internet: Blocked
+- SSH via Azure Bastion: Allowed
+- Internet access to App subnet: Blocked
+- Internal VNet traffic: Allowed
 
 ## Key Learnings
 - Designing secure network boundaries in Azure
