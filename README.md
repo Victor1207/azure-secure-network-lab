@@ -17,6 +17,7 @@ The goal was to deploy compute resources **without public exposure**, enforce **
 - Web Subnet: `10.0.1.0/24`
 - App Subnet: `10.0.2.0/24`
 - Management Subnet: `10.0.3.0/24`
+- Azurebastation Subnet: '10.0.10.0/26'
 
 ## Security Design
 - No public IP assigned to the VM
