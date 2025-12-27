@@ -41,8 +41,6 @@ This design reduces the attack surface and aligns with **Zero Trust principles**
 - Bastion deployed only for testing and removed immediately after
 - All resources deployed in West Europe region
 
-Estimated cost: **<$15**
-
 ## Validation & Testing
 - SSH access from internet: Blocked
 - SSH via Azure Bastion: Allowed
